@@ -1,0 +1,35 @@
+.hero-area {
+    width: 100%;
+    background-size: cover;
+    min-height: 60vh;
+    padding: 85px 0;
+    background-color: #eee;
+}
+.hero-area h2 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: var(--color-secondary);
+    font-family: var(--font-primary);
+}
+.hero-area img {
+    max-width: 100%;
+    height: auto;
+}
+.hero-area p {
+    color: #4f4f5a;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+
+
+@media (max-width: 991px) {
+.text-lg-start {
+    text-align: left!important;
+}
+
+.text-center {
+    text-align: center!important;
+}
+}

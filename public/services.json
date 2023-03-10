@@ -1,0 +1,27 @@
+[
+    "{{repeat(3, 7}}",
+    {
+      "id": "1",
+      "name": "Breakfast",
+      "price": "$10",
+      "description": "Chack Our Delivious Breakfast Menu",
+      "img": "https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-1.png",
+      "button": "Book a Table"
+    },
+    {
+      "id": "2",
+      "name": "Lunch",
+      "price": "$15",
+      "description": "Chack Our Delivious Breakfast Menu",
+      "img": "https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-1.png",
+      "button": "Book a Table"
+    },
+    {
+      "id": "3",
+      "name": "Dinner",
+      "price": "$25",
+      "description": "Chack Our Delivious Dinner Menu",
+      "img": "https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-1.png",
+      "button": "Book a Table"
+    }
+  ]

@@ -1,0 +1,46 @@
+.navbar-nav a {
+    display: inline-block;
+    margin-left: 25px;
+    padding: 0 3px;
+    font-family: var(--font-secondary);
+    font-size: 16px;
+    font-weight: 600;
+    color: #7f7f90;
+    white-space: nowrap;
+    transition: 0.3s;
+}
+.navbar-nav a:hover {
+    color: #ec2727;
+    text-decoration: none;
+}
+.header-area .navbar-nav a:last-child {
+    background-color: rgba(206, 18, 18, 0.8);
+    color: #ffffff;
+    font-size: 14px;
+    padding: 8px 20px;
+    margin-left: 30px;
+    border-radius: 50px;
+    transition: 0.3s;
+    text-align: center;
+}
+.header-area img {
+  width: 60px;
+  height: auto;
+}
+.navbar-toggler-icon {
+background-color: rgba(206, 18, 18, 0.8);
+}
+
+@media only screen and (max-width: 991px){
+    .navbar a, .navbar a:focus {
+    padding: 10px 20px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.8);
+}
+
+
+}
+
+
+@media only screen and (max-width: 767px){
+
+}

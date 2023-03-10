@@ -1,0 +1,46 @@
+.services-area {
+    overflow: hidden;
+    padding-bottom: 85px 0;
+    padding-bottom: 30px;
+    padding-top: 60px;
+    }
+
+.section-heading {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.section-heading h4 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.section-heading h2 {
+    color: red ;
+    margin: 0;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: var(--font-primary);
+}
+.single-service h3 {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+}
+.single-service p {
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+.single-service h5 {
+    font-size: 16px;
+    font-weight: 700;
+    color:red;
+}
+@media only screen and (max-width: 991px) {
+
+}
