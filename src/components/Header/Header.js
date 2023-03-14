@@ -3,6 +3,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { NavLink } from 'react-router-dom';
 import Logo from "../../images/logo.png";
 import "./Header.css";
 
@@ -13,20 +14,20 @@ function Header() {
         <header className="header-area">
             <Navbar bg="light" variant="light" expand="lg" className='py-3'>
                 <Container>
-                    <Navbar.Brand href="#home">
+                <Navbar.Brand href="#home">
                     <img src={Logo} alt=''/>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto">
-                            <Nav.Link href="#home">Home</Nav.Link>
-                            <Nav.Link href="#about">About</Nav.Link>
-                            <Nav.Link href="#menu">Menu</Nav.Link>
-                            <Nav.Link href="#events">Events</Nav.Link>
-                            <Nav.Link href="#chaf's">Chaf's</Nav.Link>
-                            <Nav.Link href="#gallery">Gallery</Nav.Link>
-                            <Nav.Link href="#contact">Contact</Nav.Link>
-                            <Nav.Link href="#book">Book a Table</Nav.Link>
+                            <NavLink to="/" className="nav-link">Home</NavLink>
+                            <NavLink to="/about" className="nav-link">About</NavLink>
+                            <NavLink to="/menu" className="nav-link">Menu</NavLink>
+                            <NavLink to="/events" className="nav-link">Events</NavLink>
+                            <NavLink to="/chaf's" className="nav-link">Chaf's</NavLink>
+                            <NavLink to="/gallery" className="nav-link">Gallery</NavLink>
+                            <NavLink to="/contact" className="nav-link">Contact</NavLink>
+                            <NavLink to="/book" className="nav-link">Book a Table</NavLink>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

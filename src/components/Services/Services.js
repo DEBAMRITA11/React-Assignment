@@ -20,9 +20,8 @@ const Services =() => {
         <Container>
             <SectionHeading heading="Our Menu" text="Chack Our Yummy Menu"/>
             <Row>
-                {services.map(function (item) {
-                        return <Service key={item.id} item={item} ></Service>;
-                    } )}
+                {services.map(item=> 
+                <Service key={item.id} item={item}></Service> )}
             </Row>
     </Container>
     </section>

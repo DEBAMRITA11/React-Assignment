@@ -5,6 +5,7 @@
 .section-heading h4 {
     display: block;
     font-size: 2em;
+    color: #37373f !important;
     margin-block-start: 0.83em;
     margin-block-end: 0.83em;
     margin-inline-start: 0px;
@@ -15,6 +16,6 @@
     color: red ;
     margin: 0;
     font-size: 48px;
-    font-weight: 400;
-    font-family: var(--font-primary);
+    font-weight: 700;
+    font-family: 'Amatic SC', cursive !important;
 }

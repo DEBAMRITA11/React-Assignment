@@ -1,13 +1,12 @@
 .contact-area {
     overflow: hidden;
-    padding-top: 75px;
-    padding-bottom: 75px;
-    background: #eacda3;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #d6ae7b, #eacda3);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #d6ae7b, #eacda3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-top: 65px;
+    padding-bottom: 85px;
+    background-image: url(https://images.unsplash.com/photo-1505935428862-770b6f24f629?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=867&q=80);
+    
 }
     .Contact-form {
-        width: 100%;
+        width: 90%;
         margin-top: 30px;
         padding: 35px;
         background: #fff;
@@ -15,7 +14,8 @@ background: linear-gradient(to right, #d6ae7b, #eacda3); /* W3C, IE 10+/ Edge, F
         box-shadow: 0 0 30px rgb(0 0 0 / 8%);
     }
     .Contact-form .Form.Group {
-        height: 48px;
+        padding-right: 40px;
+        height: 44px;
         border-radius: 0;
         box-shadow: none;
         font-size: 14px;
@@ -35,10 +35,52 @@ background: linear-gradient(to right, #d6ae7b, #eacda3); /* W3C, IE 10+/ Edge, F
 
     }
     .Contact-form .contact-button {
-        background: var(--color-primary);
+        background: rgba(206, 18, 18, 0.8);
         border: 0;
-        padding: 12px 40px;
+        padding: 12px 256px;
         color: #fff;
         transition: 0.4s;
         border-radius: 50px;
+    }
+    .follow-us {
+        background-color: #fff;
+        width: 100%;
+        margin-top: 40px;
+        border-radius: 50px;
+    }
+    .follow-us h4 {
+        color: red; 
+        font-size: 30px;
+        text-align: center;
+        padding-top: 60px;
+        
+    }
+    .follow-us h6 {
+        color: #212529; 
+        font-size: 25px;
+        text-align: center;
+        padding-top: 20px;
+        margin-bottom: 20px;
+        
+    }
+    .facebook-icon {
+        text-align: center;
+        font-size: 20px;
+    }
+    .f-icon {
+        color: blue;
+        font-size: 26px;
+    }
+    .whatsapp-icon {
+        text-align: center;
+        font-size: 20px;
+    }
+    .w-icon {
+        color: green;
+        font-size: 30px;
+    }
+    .contact-img img {
+        padding: 40px;
+        width: 100%;
+        height: auto;
     }

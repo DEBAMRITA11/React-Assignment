@@ -1,4 +1,5 @@
 .navbar-nav a {
+    text-decoration: none;
     display: inline-block;
     margin-left: 25px;
     padding: 0 3px;
@@ -11,7 +12,7 @@
 }
 .navbar-nav a:hover {
     color: #ec2727;
-    text-decoration: none;
+    
 }
 .header-area .navbar-nav a:last-child {
     background-color: rgba(206, 18, 18, 0.8);
@@ -22,6 +23,7 @@
     border-radius: 50px;
     transition: 0.3s;
     text-align: center;
+    text-decoration: none !important;
 }
 .header-area img {
   width: 60px;

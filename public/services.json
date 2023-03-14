@@ -1,27 +1,51 @@
 [
-    "{{repeat(3, 7}}",
-    {
-      "id": "1",
-      "name": "Breakfast",
-      "price": "$10",
-      "description": "Chack Our Delivious Breakfast Menu",
-      "img": "https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-1.png",
-      "button": "Book a Table"
-    },
-    {
-      "id": "2",
-      "name": "Lunch",
-      "price": "$15",
-      "description": "Chack Our Delivious Breakfast Menu",
-      "img": "https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-1.png",
-      "button": "Book a Table"
-    },
-    {
-      "id": "3",
-      "name": "Dinner",
-      "price": "$25",
-      "description": "Chack Our Delivious Dinner Menu",
-      "img": "https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-1.png",
-      "button": "Book a Table"
-    }
+    
+  {
+    "id": "1",
+    "name": "Breakfast",
+    "price": "$10",
+    "description": "Chack our dilicious Brackfast manu",
+    "img": "https://kauai.co.za/wp-content/uploads/2020/03/Kauai-Immune-Booster-Blog-Post-Instagram-Size8-scaled.jpg",
+    "button": "Book a Table"
+  },
+  {
+    "id": "2",
+    "name": "Lunch",
+    "price": "$15",
+    "description": "Chack our dilicious Lunch manu",
+    "img": "https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-1.png",
+    "button": "Book a Table"
+  },
+  {
+    "id": "3",
+    "name": "Dinner",
+    "price": "$20",
+    "description": "Chack our dilicious Dinner manu",
+    "img": "https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-2.png",
+    "button": "Book a Table"
+  },
+  {
+    "id": "4",
+    "name": "Starters",
+    "price": "$10",
+    "description": "Chack our dilicious Starters manu",
+    "img": "http://ak.pulsefadbd.org/wp-content/uploads/2020/06/DZT_C09_Vapa-Steam-Puli-Pitha.jpg",
+    "button": "Book a Table"
+  },
+  {
+    "id": "5",
+    "name": "Desserts",
+    "price": "$25",
+    "description": "Chack our dilicious Desserts manu",
+    "img": "https://t3.ftcdn.net/jpg/03/92/78/86/360_F_392788688_jyMMQU6U1Njdu2IGhjIIviJSvVIJgGtF.jpg",
+    "button": "Book a Table"
+  },
+  {
+    "id": "6",
+    "name": "Drinks",
+    "price": "$8",
+    "description": "Chack our dilicious Drinks manu",
+    "img": "https://s1.1zoom.me/big0/906/Coffee_Cappuccino_White_background_Cup_Spoon_Heart_561241_1365x1024.jpg",
+    "button": "Book a Table"
+  }
   ]

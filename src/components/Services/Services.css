@@ -36,11 +36,16 @@
     margin-bottom: 1rem;
     margin-top: 0;
 }
-.single-service h5 {
+.single-service h5{
     font-size: 16px;
     font-weight: 700;
     color:red;
 }
 @media only screen and (max-width: 991px) {
-
+    .section-heading h4 {
+        font-size: 1.5em;
+}
+    .section-heading h2 {
+        font-size: 35px;
+    }
 }
