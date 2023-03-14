@@ -8,7 +8,10 @@ const Gallery = () => {
     return (
         <section className='gallery-area'>
         <SectionHeading text="Check Our Gallery" heading="Gallery" />
+        <div className='gallary-img py-4'>
         <AllImages />
+        </div>
+        
         </section>
     );
 };

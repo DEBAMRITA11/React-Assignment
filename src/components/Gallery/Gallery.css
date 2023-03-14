@@ -1,7 +1,7 @@
 .gallery-area {
     overflow: hidden;
-    padding-top: 75px;
-    padding-bottom: 75px;
+    padding-top: 50px;
+    padding-bottom: 85px;
     }
     @media only screen and (max-width: 991px){
         
