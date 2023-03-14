@@ -27,7 +27,7 @@ function Header() {
                             <NavLink to="/chaf's" className="nav-link">Chaf's</NavLink>
                             <NavLink to="/gallery" className="nav-link">Gallery</NavLink>
                             <NavLink to="/contact" className="nav-link">Contact</NavLink>
-                            <NavLink to="/book" className="nav-link">Book a Table</NavLink>
+                            <NavLink to="/booking" className="nav-link">Book a Table</NavLink>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
