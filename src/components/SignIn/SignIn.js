@@ -6,9 +6,8 @@ import Row from 'react-bootstrap/esm/Row';
 import Form from 'react-bootstrap/Form';
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
-import "./Booking.css"
 
-const Booking = () => {
+const SignIn = () => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const messageDiv = document.getElementById ("message-div");
@@ -32,7 +31,7 @@ const Booking = () => {
          <Container>
         <Row>
             <Col lg={{span:6, offset:3}} >
-              <h2 className='text-center py-5'>Booking Here</h2>
+                <h2 className='text-center py-5'>Sign In</h2>
             <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Email address</Form.Label>
         <Form.Control type="email" value={email} 
@@ -47,7 +46,7 @@ const Booking = () => {
         <div id='message-div'></div>
         <Button variant="danger" type="submit" 
         onClick={() => createUserWithEmailAndPassword(email, password)}>
-        Submit
+        Sign in
         </Button> 
             </Col>
         </Row>
@@ -55,5 +54,4 @@ const Booking = () => {
         </section>
     );
 };
-
-export default Booking;
+export default SignIn;
