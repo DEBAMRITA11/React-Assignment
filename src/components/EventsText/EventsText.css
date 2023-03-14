@@ -1,0 +1,21 @@
+
+
+.all-events {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+@media only screen and (max-width: 991px){
+    .events-text-area{
+        margin-top: 5px;
+    }
+    .all-events {
+        padding-top: 10px;
+        margin-left: 85px;
+        padding-bottom: 20px;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+    .all-events .card {
+        text-align: center;
+    }     
+}
