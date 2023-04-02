@@ -18,7 +18,7 @@ const SignIn = () => {
         SignInWithEmailAndPassword,
         user,
         loading,
-        error,] = useSignInWithEmailAndPassword(auth,{sendEmailVerification: true});
+        error,] = useSignInWithEmailAndPassword(auth);
     
         if (error) {
             messageDiv.innerHTML = "error"; 
