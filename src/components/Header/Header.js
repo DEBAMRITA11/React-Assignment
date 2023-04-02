@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/esm/Button';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { useAuthState } from 'react-firebase-hooks/auth';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import auth from '../../firebase.init';
 import Logo from "../../images/logo.png";
 import "./Header.css";
@@ -21,7 +21,7 @@ function Header() {
         <header className="header-area">
             <Navbar bg="light" variant="light" expand="lg" className='py-3'>
                 <Container>
-                <Navbar.Brand href="#home">
+                <Navbar.Brand as={Link} to="/" >
                     <img src={Logo} alt=''/>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />

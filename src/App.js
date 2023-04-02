@@ -7,6 +7,7 @@ import About from "./components/About/About";
 import Events from './components/Events/Events';
 import Booking from './components/Booking/Booking';
 import SignIn from './components/SignIn/SignIn';
+import RequirAuth from './components/RequirAuth/RequirAuth';
 
 
 
@@ -17,7 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About/>} />
-        <Route path="/events" element={<Events />} />
+        <Route path="/events" element={<RequirAuth><Events /></RequirAuth>} />
         <Route path="/booking" element={<Booking />} />
         <Route path="/signin" element={<SignIn />} />
         </Routes>

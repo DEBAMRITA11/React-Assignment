@@ -5,6 +5,7 @@ import Container from 'react-bootstrap/esm/Container';
 import Row from 'react-bootstrap/esm/Row';
 import Form from 'react-bootstrap/Form';
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import { NavLink } from 'react-router-dom';
 import auth from '../../firebase.init';
 import "./Booking.css"
 
@@ -45,7 +46,10 @@ const Booking = () => {
         onChange={(e) => setPassword(e.target.value)} placeholder="Password" />
         </Form.Group>
         <div id='message-div'></div>
-        <Button variant="danger" type="submit" 
+        <p>Already have an account?
+        <NavLink to="/signin" className="nav-link sign-link btn-primary">Sign in</NavLink>
+        </p>
+        <Button variant="danger w-100" type="submit" 
         onClick={() => createUserWithEmailAndPassword(email, password)}>
         Submit
         </Button> 

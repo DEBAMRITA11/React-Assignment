@@ -4,18 +4,21 @@ import Col from 'react-bootstrap/esm/Col';
 import Container from 'react-bootstrap/esm/Container';
 import Row from 'react-bootstrap/esm/Row';
 import Form from 'react-bootstrap/Form';
-import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import { NavLink } from 'react-router-dom';
 import auth from '../../firebase.init';
+import GoogleSignUp from '../GoogleSignUp/GoogleSignUp';
+import "./SignIn.css";
 
 const SignIn = () => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const messageDiv = document.getElementById ("message-div");
     const [
-        createUserWithEmailAndPassword,
+        SignInWithEmailAndPassword,
         user,
         loading,
-        error,] = useCreateUserWithEmailAndPassword(auth);
+        error,] = useSignInWithEmailAndPassword(auth,{sendEmailVerification: true});
     
         if (error) {
             messageDiv.innerHTML = "error"; 
@@ -31,7 +34,7 @@ const SignIn = () => {
          <Container>
         <Row>
             <Col lg={{span:6, offset:3}} >
-                <h2 className='text-center py-5'>Sign In</h2>
+                <h2 className='text-center py-5'>Sign In Here</h2>
             <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Email address</Form.Label>
         <Form.Control type="email" value={email} 
@@ -44,10 +47,14 @@ const SignIn = () => {
         onChange={(e) => setPassword(e.target.value)} placeholder="Password" />
         </Form.Group>
         <div id='message-div'></div>
-        <Button variant="danger" type="submit" 
-        onClick={() => createUserWithEmailAndPassword(email, password)}>
+        <p>Order Now!<NavLink to="/booking" className="nav-link book-link">Booking Here</NavLink>
+        </p>
+        <Button variant="primary w-100" type="submit" 
+        onClick={() => SignInWithEmailAndPassword(email, password)}>
         Sign in
-        </Button> 
+        </Button>
+        <span className='or-style'>Or</span> 
+        <GoogleSignUp />
             </Col>
         </Row>
         </Container>    
